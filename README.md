@@ -6,6 +6,13 @@ This is still in very early stages...
 
 ## 99 Problems
 
+This repo describes and provides solutions (hopefully) for the following problems:
+
+* [split packages](split-packages)
+
+
+## 999 More Problems
+
 I compiled this list from the Twitter replies (didn't go through Reddit yet) and hope to address them at some point.
 
 ### Mentioned Repeatedly
@@ -23,7 +30,6 @@ I compiled this list from the Twitter replies (didn't go through Reddit yet) and
 	* ~> "An ugly fix to this is create an empty jar with name that the module system likes, and use the --patch-module to the original jar" (but won't Maven leave the original JAR on the module path?)
 * uber/fat JARs
 * native images
-* split packages
 * annotation processors
 	* https://github.com/schnatterer/moby-names-generator-java/commit/dbd710121f33c22df501103a6434690afbf190c5
 * class vs module path
