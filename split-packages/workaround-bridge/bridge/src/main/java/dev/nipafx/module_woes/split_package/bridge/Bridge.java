@@ -1,4 +1,4 @@
-package dev.nipafx.module_woes.split_package;
+package dev.nipafx.module_woes.split_package.bridge;
 
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.standard.ClassicAnalyzer;
@@ -21,11 +21,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class Bridge {
 
-	public static void main(String[] args) throws IOException {
-		new Main().read();
-	}
+	// use Lucene Analyzers Common types only here
 
 	public Document read() throws IOException {
 		Directory memoryIndex = new RAMDirectory();
@@ -44,7 +42,6 @@ public class Main {
 	}
 
 	public List<Document> searchIndex(String inField, String queryString) throws IOException {
-		// Lucene Analyzers Common types (use only here)
 		Directory memoryIndex = new RAMDirectory();
 
 		Query query = new PhraseQuery("title", "Title");

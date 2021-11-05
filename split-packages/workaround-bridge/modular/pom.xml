@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>dev.nipafx.module-woes</groupId>
-	<artifactId>split-packages</artifactId>
+	<artifactId>split-package-modular</artifactId>
 	<version>1.0-SNAPSHOT</version>
 
 	<properties>
@@ -17,9 +17,9 @@
 			<version>8.9.0</version>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.lucene</groupId>
-			<artifactId>lucene-analyzers-common</artifactId>
-			<version>8.9.0</version>
+			<groupId>dev.nipafx.module-woes</groupId>
+			<artifactId>split-package-bridge</artifactId>
+			<version>1.0-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 

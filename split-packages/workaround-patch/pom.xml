@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>dev.nipafx.module-woes</groupId>
-	<artifactId>split-packages</artifactId>
+	<artifactId>split-package-patch</artifactId>
 	<version>1.0-SNAPSHOT</version>
 
 	<properties>
@@ -29,6 +29,11 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.1</version>
+				<configuration>
+					<compilerArgs>
+						<arg>--patch-module=lucene.core=${settings.localRepository}/org/apache/lucene/lucene-analyzers-common/8.9.0/lucene-analyzers-common-8.9.0.jar</arg>
+					</compilerArgs>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
