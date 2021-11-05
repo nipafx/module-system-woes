@@ -9,6 +9,7 @@ This is still in very early stages...
 This repo describes and provides solutions (hopefully) for the following problems:
 
 * [split packages](split-packages)
+* [testing](testing)
 
 
 ## 999 More Problems
@@ -21,7 +22,6 @@ I compiled this list from the Twitter replies (didn't go through Reddit yet) and
 	* https://twitter.com/realTomFi/status/1406146695835029506
 	* https://mail.openjdk.java.net/pipermail/jigsaw-dev/2019-August/014280.html
 	* https://livebook.manning.com/book/the-java-module-system/chapter-5/60
-* how to test (@sormuras)
 
 ### Mentioned Once
 
