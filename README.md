@@ -10,6 +10,7 @@ This repo describes and provides solutions (hopefully) for the following problem
 
 * [split packages](split-packages)
 * [testing](testing)
+* [resources](resources)
 
 
 ## General Comments
