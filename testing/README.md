@@ -21,7 +21,7 @@ Then again, this is not straight-forward to configure as for example Maven will 
 
 ### Test Module
 
-Putting the tests into their own module won't work because in order to test package visible classes, the tests need to be in the same package, which immediately creates a [split package](../split-package) situation between the code under test and the tests.
+Putting the tests into their own module won't work because in order to test package visible classes, the tests need to be in the same package, which immediately creates a [split package](../split-packages) situation between the code under test and the tests.
 
 ### Command Line Flags
 
